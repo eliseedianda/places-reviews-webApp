@@ -1,0 +1,83 @@
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+label {
+  width: max-content;
+  color: #12ad2b;
+  font-size: 13px;
+  border-bottom: 0.5px solid #12ad2b;
+  margin: 3px 0;
+}
+
+.description {
+  font-size: 14px;
+}
+.star {
+  color: gold;
+}
+.username {
+  font-size: 14px;
+}
+.date {
+  font-size: 12px;
+}
+form {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+input,
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.submitButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #12ad2b;
+  cursor: pointer;
+}
+.button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.signout {
+  background-color: blue;
+}
+.signin {
+  background-color: green;
+  margin-right: 15px;
+}
+.signup {
+  background-color: gray;
+}
+
+.buttons,
+.signout {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.logo {
+  font-family: "Bigelow Rules";
+  font-size: "30px";
+}
